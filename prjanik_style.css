@@ -1,0 +1,110 @@
+body {
+    background-image: url("https://images.pexels.com/photos/6061748/pexels-photo-6061748.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-color: bisque;
+    background-position: center;
+    background-size: cover;
+    margin: 43px 0px;
+}
+
+#quote {
+    /*color: wheat;*/
+    /*background-color: burlywood;*/
+    /*background-size: 2vh;*/
+    font-size: 2em;
+    font-style: italic;
+    /*text-shadow: 1px 1px black;*/
+    text-align: center;
+}
+
+
+
+nav{
+    position: fixed;
+    flex-basis: 5%;
+    top: 1px;
+    display: flex;
+    justify-content: flex-start;
+    place-content: flex-start;
+    /*width: 100%;*/
+    font-size: 2em;
+}
+
+nav >div {
+    /*border: solid #e09b3b;*/
+    padding: 1px 10%;
+}
+
+nav > div > a {
+    text-decoration: none;
+    color: black;
+}
+/*кнопки меню*/
+.menu-button {
+    color: rgb(252, 89, 89);
+    font-size: 35px;
+    text-decoration: none;
+    text-shadow: 2px 2px #000000;
+    line-height: 29px;
+    padding: 19px;
+    font-family: Georgia, serif;
+    font-weight: normal;
+    /*font-style: normal; font-variant: normal; text-transform: none;*/
+    /*linear-gradient(to right, rgb(224, 155, 59) 0%, rgba(210, 101, 30, 0.5) 50%, rgba(224, 155, 59, 0.4) 100%);*/
+    display: inline-block;}
+.menu-button:hover {
+    background: rgba(130, 59, 15, 0.23);
+    box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+}
+.menu-button:active {
+    background: #b69820; }
+/*кнопки меню (конец)*/
+
+
+h1 {
+    text-align: center;
+    font-size: 65px;
+}
+
+h2 {
+    background-color: rgba(224, 155, 59, 0.3);
+    top: 54px;
+    font-size: 45px;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+ul{
+    display: unset;
+}
+
+section {
+    text-align: center;
+}
+
+img:hover{
+    transform: scale(1.2);
+    box-shadow: 10px 10px 10px black;
+    /*z-index: 1;*/
+}
+
+.img-z, .img-t {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 5% 5%;
+    z-index: 7;
+}
+
+.img-p{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 5% 5%;
+    z-index: 7;
+    height: fit-content;
+}
